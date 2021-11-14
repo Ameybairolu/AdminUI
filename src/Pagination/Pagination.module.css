@@ -1,0 +1,45 @@
+.pagination_container {
+  margin: auto;
+  width: 90%;
+  height: 8vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.delete_all {
+  width: 20%;
+  height: fit-content;
+  padding-left: 20px;
+}
+
+.page_numbers_container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page_numbers_container button {
+  height: 20px;
+  border: none;
+  background-color: black;
+  color: #f77f00;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.active_page {
+  background-color: white !important;
+  cursor: auto !important;
+}
+
+.delete_selected {
+  height: 30px;
+  background-color: #d62828;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+}

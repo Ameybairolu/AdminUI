@@ -1,0 +1,38 @@
+.search_container {
+  width: 90%;
+  margin: auto;
+}
+
+.search {
+  width: 100%;
+}
+
+.headers {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  background-color: black;
+  color: #f77f00;
+}
+
+.checkboxspace {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+}
+
+.namespace {
+  width: 20%;
+}
+
+.emailspace {
+  width: 35%;
+}
+
+.rolespace {
+  width: 20%;
+}
+
+.actionspace {
+  width: 15%;
+}

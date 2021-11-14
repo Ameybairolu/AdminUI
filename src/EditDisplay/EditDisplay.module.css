@@ -1,0 +1,47 @@
+.edit_container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #3f3f3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  height: 30%;
+  width: 80%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-radius: 10px;
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form h5 {
+  padding-left: 10px;
+  width: 20%;
+  margin: 10px 0px;
+}
+
+.form input {
+  width: 75%;
+}
+
+.submit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.submit button {
+  width: 200px;
+  height: 40px;
+  font-weight: 600;
+  background-color: #f77f00;
+  border: none;
+}
